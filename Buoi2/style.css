@@ -31,15 +31,6 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.box9 {
-  width: 1180px;
-  height: 256px;
-  border: 1px solid black;
-  margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 .box10 {
   width: 1180px;
   height: 138px;
@@ -92,7 +83,7 @@
   margin-left: 16px;
   color: gray;
 }
-.item9 {
+/* .item9 {
   width: 280px;
   height: 200px;
   border: 1px solid blue;
@@ -115,7 +106,7 @@
   background-color: aquamarine;
   z-index: 2;
   position: absolute;
-}
+} */
 .value {
   color: black;
   font-size: 40px;
@@ -370,10 +361,11 @@
   align-items: center;
 }
 .content7 {
-  width: 441px;
+  width: 460px;
   height: 346px;
-  border: 2px solid rgb(255, 255, 255);
   margin-left: 30px;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .form7 {
   width: 491px;
@@ -381,4 +373,62 @@
   background-color: white;
   border-radius: 7px;
   margin-right: 30px;
+  padding: 20px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-input {
+  width: 95%;
+}
+#chil-input {
+  padding: 9px 9px;
+  border: 1px solid rgb(177, 177, 177);
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.box9 {
+  width: 1180px;
+  height: 256px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.box9-item {
+  width: 280px;
+  height: 200px;
+  border: 1px solid rgb(171, 171, 171);
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+.img9 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.text-box9 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.list-items9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icon {
+  width: 55px;
+  height: 55px;
+  background-color: rgb(168, 240, 248);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 90px;
+  right: 30px;
+}
+.fa {
+  font-size: 24px;
 }
