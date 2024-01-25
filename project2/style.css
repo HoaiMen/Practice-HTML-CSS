@@ -1,0 +1,32 @@
+.abc:hover > .dropdown-menu {
+  display: block;
+}
+.abc:hover {
+  color: rgb(21, 197, 53);
+}
+.bbi:hover {
+  color: rgb(21, 197, 53);
+}
+.tettt {
+  font-size: 15px;
+  color: grey;
+}
+.tetttt {
+  color: grey;
+  font-size: 17px;
+}
+.card:hover {
+  box-shadow: 5px 10px 10px #888888;
+  border: 1px solid rgb(58, 232, 19);
+}
+.rrrr {
+  margin-bottom: 600px;
+}
+.count {
+  text-align: center;
+  padding: 7px 15px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  border: 1px solid rgb(201, 201, 201);
+}
